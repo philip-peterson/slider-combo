@@ -31,6 +31,11 @@ But what if something strange happens with the pseudorandom number generator, fo
 
 In my team's specific use-case, our code gets executed when we are starting a new game, so we would like to be certain that the algorithm will halt in finite time. So, that is what this library tries to provide -- an algorithm that accomplishes the same result as the above code but runs in bounded time.
 
+Wait, you're actually worried about a widely-used and well-tested game engine's PRNG failing?
+==========
+
+Okay, no, not really... This is really just a thinly-veiled academic diversion. :P
+
 How to run
 ==========
 
