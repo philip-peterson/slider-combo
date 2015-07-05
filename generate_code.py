@@ -37,6 +37,7 @@ def visualize_code(code, possibilities = 25):
    slots = ['_' for i in range(possibilities)]
    for i in code:
       slots[i] = 'X'
-   print ''.join(slots)
+   print(''.join(slots))
 
-visualize_code(generate_code())
+if __name__ == '__main__':
+   visualize_code(generate_code())
