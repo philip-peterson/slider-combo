@@ -1,7 +1,7 @@
 What is this?
 =============
 
-It's an algorithm that produces a sequence of distinct random numbers in some range with an even\* distribution (with guaranteed termination and an upper bound on runtime).
+It's an algorithm that produces a sequence of distinct random integers in some range with an even\* distribution (with guaranteed termination and an upper bound on runtime).
 
 This is useful for coming up with "combination codes" for slider-input systems, such as the firemarble dome in the video game Riven.
 
