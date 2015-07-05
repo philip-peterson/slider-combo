@@ -36,6 +36,10 @@ Wait, you're actually worried about a widely-used and well-tested game engine's 
 
 Okay, no, not really... This is really just a thinly-veiled academic diversion. :P
 
+What's the complexity?
+======================
+Currently it's O(possibilities * nums^2).
+
 How to run
 ==========
 
