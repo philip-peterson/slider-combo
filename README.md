@@ -5,7 +5,9 @@ It's an algorithm that produces a sequence of distinct random numbers in some ra
 
 This is useful for coming up with "combination codes" for slider-input systems, such as the firemarble dome in the video game Riven.
 
+<div style="text-align: center">
 ![One of the firemarble domes in RIVEN](https://raw.github.com/philip-peterson/slider-combo/master/dome.png)
+</div>
 
 \* = as much as possible...
 
