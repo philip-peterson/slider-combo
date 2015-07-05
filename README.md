@@ -46,6 +46,8 @@ Other solutions
 ===============
 Soon after writing this I realized that R's sample(..., replace = FALSE) function does the same thing. My colleague [Ned Batchelder](https://github.com/nedbat) also pointed out that Python has the `random.sample()` function. Curious, I looked into how random.sample works, and it's rather clever. It's much better in terms of time (O(possibilities)), but slightly worse in terms of space (O(possibilities)). This restricts the usefulness of my implementation to refrigerators with less memory than buttons on their slider combination locks. Oh well!
 
+You can view my rendition of the approach taken by Python, in `alt_generate_code.py`.
+
 How to run
 ==========
 
