@@ -38,7 +38,13 @@ Okay, no, not really... This is really just a thinly-veiled academic diversion. 
 
 What's the complexity?
 ======================
-Currently it's O(possibilities * nums^2). Better than O(infinity)!
+Currently it's O(possibilities * nums^2) time. Better than O(infinity)!
+
+Also, the space complexity is O(nums).
+
+Other solutions
+===============
+Soon after writing this I realized that R's sample(..., replace = FALSE) function does the same thing. My colleague [Ned Batchelder](https://github.com/nedbat) also pointed out that Python has the `random.sample()` function. Curious, I looked into how random.sample works, and it's rather clever. It's much better in terms of time (O(possibilities)), but slightly worse in terms of space (O(possibilities)). This restricts the usefulness of my implementation to refrigerators with less memory than buttons on their slider combination locks. Oh well!
 
 How to run
 ==========
