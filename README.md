@@ -38,7 +38,7 @@ Okay, no, not really... This is really just a thinly-veiled academic diversion. 
 
 What's the complexity?
 ======================
-Currently it's O(possibilities * nums^2).
+Currently it's O(possibilities * nums^2). Better than O(infinity)!
 
 How to run
 ==========
